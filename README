@@ -1,0 +1,20 @@
+NAME - program.c
+
+USAGE - 
+$ make
+$ make run
+
+DESCRIPTION - 
+program which creates two thread , first thread print
+numbers from 1 to 500 & other thread print the numbers from 500 to 1.
+
+Example -
+# make
+gcc -o threadDemo program.c -lpthread
+
+# make run
+./threadDemo
+Thread1: 1
+Thread1: 2
+Thread1: 3
+Thread1: 4
